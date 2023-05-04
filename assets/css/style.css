@@ -1,0 +1,25 @@
+.left-label {
+    display: inline-block;
+    width: 100px;
+    /* sesuaikan lebar label dengan kebutuhan */
+    text-align: left;
+    /* membuat teks label rata kiri */
+}
+
+.card.bg-dark {
+    background-color: #0d8d7c88;
+}
+
+.btn.btn-outline-black.btn-lg.px-5 {
+    background-color: #008000;
+    color: #fff;
+}
+
+.card.bg-brown.text-black {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-dark {
+    color: #006400;
+    /* ganti dengan kode warna hijau tua yang diinginkan */
+}
