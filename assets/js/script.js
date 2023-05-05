@@ -66,13 +66,18 @@ function login() {
 
 const articles = [{
         id: 1,
-        title: 'ahmad',
-        content: 'pakde.'
+        title: 'Policy Brief Transformasi Transportasi Jakarta',
+        content: 'Emisi udara di DKI Jakarta sudah dalam kondisi yang memperihatinkan. Emisi dari kendaraan bermotor merupakan masalah utama dari pencemaran udara di DKI Jakarta.',
     },
     {
         id: 2,
-        title: 'jokoto2',
-        content: 'Sed ut malesuada mauris, owi.'
+        title: 'GAR (Golden Agri Resources) Mundur Dari Komitmen Nol Deforestasi',
+        content: 'KKH memberi panduan dalam pelestarian hutan dan memastikan bahwa GAR tidak memiliki rekam jejak deforestasi, sambil tetap menjaga pertumbuhan'
+    },
+    {
+        id: 3,
+        title: 'Perjanjian Kelautan PBB yang Bersejarah Disetujui',
+        content: 'Perjanjian tersebut diharapkan dapat berkontribusi pada konservasi dan pemanfaatan sumber daya laut secara berkelanjutan, sekaligus melindungi'
     }
 ];
 

@@ -32,6 +32,14 @@
     background-attachment: fixed;
 }
 
+.detail{
+    font-size: smaller;
+}
+
+.color{
+    color: #154E22;
+}
+
 /* Footer */
 .footer {
     padding: 50px 0 50px 0;
