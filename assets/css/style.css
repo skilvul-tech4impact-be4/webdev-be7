@@ -24,7 +24,66 @@
     /* ganti dengan kode warna hijau tua yang diinginkan */
 }
 
+.bg-back {
+    background-image: url("/assets/img/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+/* Footer */
+.footer {
+    padding: 50px 0 50px 0;
+    background-color: #154E22;
+  }
+  
+  .footer .box-footer {
+    display: grid;
+    grid-template-columns: 2fr auto 2fr;
+    column-gap: 100px;
+    align-items: center;
+  }
+  
+  .footer .box-footer .box {
+    color: white;
+  }
+  
+  .footer .box-footer .box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  .footer .box-footer .box:nth-child(2) a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+  }
+  
+  .footer .box-footer .box p {
+    font-weight: 200;
+  }
+
+  .footer .box-footer .box h3 {
+    color: white;
+  }
+  
+  .footer .box-footer .box:nth-child(1) p {
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 10px;
+  }
+  
+  .footer .box-footer .box:nth-child(3) {
+    text-align: center;
+  }
+  
+  .footer .box-footer .box:nth-child(3) span {
+    font-weight: bold;
+  }
+  /* Footer */
+  
 /*=============== GOOGLE FOlinkTS ===============*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
